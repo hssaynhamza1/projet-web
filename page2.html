@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé du Cours CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2e6da4;
+        }
+        .section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 10px 0;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Résumé du Cours CSS</h1>
+        <p>Ce cours aborde les principes de base du CSS pour styliser les pages web.</p>
+    </header>
+
+    <section class="section">
+        <h2>Qu'est-ce que le CSS ?</h2>
+        <p>CSS (Cascading Style Sheets) est un langage de style utilisé pour définir l'apparence et la mise en page d'un document HTML. CSS permet de modifier des éléments tels que les couleurs, les polices, les marges et les espacements.</p>
+    </section>
+
+    <section class="section">
+        <h2>La structure de base du CSS</h2>
+        <p>Le CSS se compose de sélecteurs et de déclarations. Une déclaration contient une propriété et une valeur. Voici un exemple de base :</p>
+        <pre><code>selector {
+    property: value;
+}</code></pre>
+        <p>Par exemple :</p>
+        <pre><code>h1 {
+    color: blue;
+}</code></pre>
+        <p>Ce code applique la couleur bleue à tous les éléments `<h1>` de la page.</p>
+    </section>
+
+    <section class="section">
+        <h2>Les types de sélecteurs</h2>
+        <ul>
+            <li><strong>Sélecteur de type</strong> : Cibler tous les éléments d'un type, par exemple <code>p</code> pour tous les paragraphes.</li>
+            <li><strong>Sélecteur de classe</strong> : Cibler les éléments ayant une classe spécifique, par exemple <code>.mon-classe</code>.</li>
+            <li><strong>Sélecteur d'ID</strong> : Cibler un élément avec un ID spécifique, par exemple <code>#mon-id</code>.</li>
+            <li><strong>Sélecteur universel</strong> : Cibler tous les éléments de la page avec <code>*</code>.</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Propriétés CSS courantes</h2>
+        <ul>
+            <li><strong>color</strong> : Définit la couleur du texte (par exemple, <code>color: red;</code>).</li>
+            <li><strong>background-color</strong> : Définit la couleur de fond (par exemple, <code>background-color: #f0f0f0;</code>).</li>
+            <li><strong>font-family</strong> : Définit la police du texte (par exemple, <code>font-family: Arial, sans-serif;</code>).</li>
+            <li><strong>margin</strong> : Définit l'espace autour des éléments (par exemple, <code>margin: 10px;</code>).</li>
+            <li><strong>padding</strong> : Définit l'espace à l'intérieur des éléments (par exemple, <code>padding: 15px;</code>).</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Les Box Models en CSS</h2>
+        <p>Le modèle de boîte (box model) définit la façon dont les éléments sont affichés dans une page web. Un élément peut être constitué de plusieurs parties :</p>
+        <ul>
+            <li><strong>Content</strong> : Le contenu de l'élément (texte, image, etc.).</li>
+            <li><strong>Padding</strong> : L'espace autour du contenu, à l'intérieur de la bordure.</li>
+            <li><strong>Border</strong> : Une bordure autour du padding.</li>
+            <li><strong>Margin</strong> : L'espace à l'extérieur de la bordure.</li>
+        </ul>
+        <p>Voici un exemple de CSS qui modifie le box model :</p>
+        <pre><code>div {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 10px;
+}</code></pre>
+    </section>
+
+    <section class="section">
+        <h2>Conclusion</h2>
+        <p>Le CSS est essentiel pour styliser et disposer les éléments HTML sur une page web. En comprenant les sélecteurs, les propriétés et le modèle de boîte, vous pouvez créer des designs web attrayants et fonctionnels.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cours de CSS - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

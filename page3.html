@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résumé du Cours JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #3e8e41;
+        }
+        .section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 10px 0;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Résumé du Cours JavaScript</h1>
+        <p>Ce cours couvre les bases de JavaScript, le langage utilisé pour rendre les pages web interactives.</p>
+    </header>
+
+    <section class="section">
+        <h2>Qu'est-ce que JavaScript ?</h2>
+        <p>JavaScript est un langage de programmation principalement utilisé pour créer des effets dynamiques et interactifs sur les pages web. Il permet de manipuler les éléments HTML et CSS d'une page web en temps réel.</p>
+    </section>
+
+    <section class="section">
+        <h2>La Structure de Base d'un Script JavaScript</h2>
+        <p>Un script JavaScript peut être ajouté à une page web en utilisant la balise <code>&lt;script&gt;</code>. Voici un exemple de structure de base d'un script JavaScript :</p>
+        <pre><code>&lt;script&gt;
+    // Ceci est un commentaire
+    alert("Bonjour, le monde!");
+&lt;/script&gt;</code></pre>
+        <p>Dans cet exemple, un message pop-up apparaît sur la page lorsque le script est exécuté.</p>
+    </section>
+
+    <section class="section">
+        <h2>Les Variables en JavaScript</h2>
+        <p>Les variables en JavaScript sont utilisées pour stocker des valeurs. On utilise les mots-clés <code>var</code>, <code>let</code>, ou <code>const</code> pour déclarer une variable.</p>
+        <ul>
+            <li><strong><code>var</code></strong> : Ancien mot-clé pour déclarer des variables (moins utilisé aujourd'hui).</li>
+            <li><strong><code>let</code></strong> : Déclare une variable dont la valeur peut être modifiée.</li>
+            <li><strong><code>const</code></strong> : Déclare une variable dont la valeur ne peut pas être modifiée.</li>
+        </ul>
+        <p>Exemple :</p>
+        <pre><code>let x = 10;
+const y = 5;</code></pre>
+    </section>
+
+    <section class="section">
+        <h2>Les Fonctions en JavaScript</h2>
+        <p>Une fonction est un bloc de code que l'on peut exécuter plusieurs fois. Voici un exemple de fonction simple :</p>
+        <pre><code>function saluer() {
+    alert("Bonjour!");
+}</code></pre>
+        <p>Pour appeler la fonction et exécuter son code, on écrit :</p>
+        <pre><code>saluer();</code></pre>
+    </section>
+
+    <section class="section">
+        <h2>Les Conditions en JavaScript</h2>
+        <p>Les structures conditionnelles permettent d'exécuter un code en fonction de certaines conditions. Par exemple, la structure <code>if</code> permet de vérifier une condition :</p>
+        <pre><code>if (x > y) {
+    alert("x est plus grand que y");
+} else {
+    alert("x n'est pas plus grand que y");
+}</code></pre>
+    </section>
+
+    <section class="section">
+        <h2>Les Boucles en JavaScript</h2>
+        <p>Les boucles sont utilisées pour exécuter un bloc de code plusieurs fois. Voici un exemple d'une boucle <code>for</code> :</p>
+        <pre><code>for (let i = 0; i < 5; i++) {
+    console.log(i);
+}</code></pre>
+        <p>Dans cet exemple, le code affichera les nombres de 0 à 4 dans la console.</p>
+    </section>
+
+    <section class="section">
+        <h2>Les Événements en JavaScript</h2>
+        <p>JavaScript peut être utilisé pour gérer les événements sur une page web, comme un clic sur un bouton ou un mouvement de souris. Exemple :</p>
+        <pre><code>document.getElementById("monButton").onclick = function() {
+    alert("Le bouton a été cliqué!");
+};</code></pre>
+        <p>Ce code attend que l'utilisateur clique sur un bouton avec l'ID "monButton" et affiche un message lorsque cela se produit.</p>
+    </section>
+
+    <section class="section">
+        <h2>Conclusion</h2>
+        <p>JavaScript est un langage puissant qui permet de rendre les pages web interactives et dynamiques. En comprenant les variables, les fonctions, les conditions, les boucles et les événements, vous pouvez commencer à créer des pages web plus complexes et interactives.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cours de JavaScript - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
